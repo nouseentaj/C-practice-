@@ -1,0 +1,14 @@
+#includ<stdio.h>
+void main()
+{
+int num;
+float avg;
+long fact;
+char ch;
+double per;
+printf(“\n Size of num is: %d \t Address of num is: %u”, sizeof(num),num);
+printf(“\n Size of avg is: %d \t Address of avg is: %u”, sizeof(avg),avg);
+printf(“\n Size of fact is: %d \t Address of fact is: %u”, sizeof(fact),fact);
+printf(“\n Size of ch is: %d \t Address of ch is: %u”, sizeof(ch),ch);
+printf(“\n Size of per is: %d \t Address of per is: %u \n”, sizeof(per),per);
+}

@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+printf(“25 &gt; 15 = %d”, (25&gt;15));
+printf(“25 &lt; 15 = %d”, (25&lt;15));
+printf(“25 &gt;= 25 = %d”, (25&lt;=25));
+printf(“25 &lt;= 25 = %d”,(25&lt;=25));
+printf(“25 == 25 = %d”, (25==25));
+printf(“25 != 15 = %d”, (25!=15));
+}

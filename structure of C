@@ -1,0 +1,16 @@
+Documentation Section
+Header File Section or Link Section
+Definition Section
+Global Declaration Section
+Main Section
+main()
+{
+/* comments */
+Declaration Part
+Executable Part
+}
+User-Defined Functions Section
+{
+Declaration Part
+Executable Part
+}

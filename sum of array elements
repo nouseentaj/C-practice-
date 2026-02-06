@@ -1,0 +1,18 @@
+#include<stdio.h>
+#define MAX 100
+void main( )
+{
+    int arr[MAX], N, i, sum = 0;      
+    printf("Enter Number of Elements in Array:");
+    scanf("%d", &N);
+    printf("Enter %d numbers one by one:", N);    
+    for(i = 0; i<=N; i++) /* Read array elements */
+{
+        scanf("%d", &arr[i]);
+    }        
+    for(i = 0; i<=N; i++)     /* Add array elements */
+{
+        sum = sum + arr[i];
+    }     
+    printf("Sum of all Array Elements : %d", sum);     
+}

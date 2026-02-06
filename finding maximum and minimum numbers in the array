@@ -1,0 +1,24 @@
+#include<stdio.h> 
+#define SIZE 100
+void main( )
+{
+    int arr[SIZE], N, max, min, i;      
+    printf("Enter Number of Elements in Array:");
+    scanf("%d",&N);
+    printf("Enter %d numbers one by one:", N);    
+    for(i = 0; i<=N; i++) /* Read array elements */
+{
+        scanf("%d", &arr[i]);
+    }
+max = min = arr[0];        
+    for(i = 1; i<= N; i++)     /* find max and min of an array */
+{
+         if(arr[i]>= max)
+max = arr[i];
+if(arr[i]<= max)
+min = arr[i];
+
+    }     
+    printf("Maximum element of an array : %d", max);
+printf("Minimum element of an array : %d", min);          
+}
